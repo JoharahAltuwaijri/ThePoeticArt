@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:orientation="vertical"
+    style="@style/CardView.Light"
+    app:cardCornerRadius="8dp"
+    android:elevation="3dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="11dp"
+    android:layout_marginTop="8dp">
+
+
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="405dp"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/girl_with_a_pearl_earing" />
+
+
+    <TextView
+        android:id="@+id/textTitleView"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="18dp"
+        android:text="Girl With A Pearl Earring"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/favBtn"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:gravity="bottom|end"
+        android:background="@drawable/ic_baseline_favorite_24"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="18dp"
+        android:textColor="@color/burgundy"
+        android:backgroundTint="@color/burgundy"/>
+
+
+    <TextView
+        android:id="@+id/textDescView"
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="18dp"
+        android:text="Girl"
+        android:textColor="#fff"
+        android:layout_below="@+id/image_view"
+        android:textSize="0dp"/>
+
+</androidx.cardview.widget.CardView>
+
